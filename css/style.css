@@ -1,0 +1,40 @@
+.page-title {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.card-rendre {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: whitesmoke
+}
+.nav-rendre {
+    margin-bottom: 20px;
+}
+
+.primary-color {
+    background-color: #4e3b19cf !important;
+}
+.rendre-keyboard {
+    margin: 10px 0 20px 0;
+}
+.z-max {
+    z-index: 9999;
+    bottom: 2.5em;
+    right: 2.5em;
+}
+
+.custom-p-button {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.font-color-white {
+    color: #FFF !important;
+}
+
+.font-color-grey {
+    color: #4e4e4e;
+}

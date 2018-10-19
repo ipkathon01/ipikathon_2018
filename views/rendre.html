@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="https://v4-alpha.getbootstrap.com/favicon.ico">
+
+<title>Starter Template for Bootstrap</title>
+
+<!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/starter-template.css" rel="stylesheet">
+<link href="../css/mdb.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="../css/custom.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://unpkg.com/virtual-keyboard-plugin@1.1.1/dist/virtual-keyboard.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark primary-color nav-rendre">
+
+
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <div class="navbar-nav">
+            <a class="nav-link" href="../index.php"><img src="../img/left-arrow (1).png" alt="retour vers l'index"><span class="sr-only">(current)</span></a>
+        </div>
+        <div class="page-title">
+            <span> RENDRE UN LIVRE</span>
+        </div>
+    </div>
+
+</nav>
+
+<div class="container">
+    <div class="card card-rendre">
+        <div class="card-body">
+            <h5 class="card-title">PROCEDURE</h5>
+            Pour rendre votre livre, scannez-le ou entrez son code barre manuellement, puis validez. Suivez le robot pour ranger le livre.<br />
+            <img src="../img/robot.png" alt="Suivez le robot">
+        </div>
+    </div>
+
+    <div class="card card-rendre">
+        <div class="card-body">
+            <h5 class="card-title">CODE-BARRE DU LIVRE</h5>
+            Entrez ci-dessous, le code barre du livre : <br />
+            <div class="virtual-keyboard-hook rendre-keyboard" data-target-id="Id2" data-keyboard-mapping="azerty"><input id="Id2" type="text" virtual-keyboard></div>
+            <img src="../img/shopping-barcode.png" alt="notez le code-barre">
+        </div>
+    </div>
+
+    <div class="card card-rendre">
+        <div class="card-body">
+            <h5 class="card-title">SCANNER LE LIVRE</h5>
+            Placez le code barre du livre devant le détecteur pour le scanner.<br />
+            <img src="../img/barcode-scanner.png" alt="scanner le livre">
+        </div>
+    </div>
+
+
+</div><!-- /.container -->
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="../js/jquery-3.js"></script>
+<!--<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script> -->
+<script src="../js/tether.js"></script>
+<script src="../js/bootstrap.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../js/ie10-viewport-bug-workaround.js"></script>
+<script src="../js/mdb.min.js"></script>
+<script src="../js/popper.min.js"></script>
+
+<script src="https://unpkg.com/virtual-keyboard-plugin@1.1.1/dist/virtual-keyboard.min.js"></script>
+</body>
+</html>

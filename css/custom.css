@@ -1,0 +1,26 @@
+.page-title {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.card-rendre {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: whitesmoke
+}
+.nav-rendre {
+    margin-bottom: 20px;
+}
+
+.primary-color {
+    background-color: #4e3b19cf !important;
+}
+body {
+    background: url('../img/background_2.jpg');
+    background-size: cover;
+}
+.rendre-keyboard {
+    margin: 10px 0 20px 0;
+}

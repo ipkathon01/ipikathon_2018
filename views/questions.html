@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Questions/Réponses</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="../css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!--Double navigation-->
+<header class="mb-5 pb-5">
+    <!-- Sidebar navigation -->
+    <div id="slide-out" class="side-nav purple-gradient fixed">
+        <ul class="custom-scrollbar">
+            <!-- Logo -->
+            <li>
+                <div class="logo-wrapper waves-light">
+                    <a href="#"><img src="../img/Logo_vdr_transparent.png" class="img-fluid flex-center"></a>
+                </div>
+            </li>
+            <!--/. Logo -->
+            <!--Search Form-->
+            <li>
+                <form class="search-form" role="search">
+                    <div class="form-group md-form mt-0 pt-1 waves-light">
+                        <input type="text" class="form-control" placeholder="Recherche">
+                    </div>
+                </form>
+            </li>
+            <!--/.Search Form-->
+            <!-- Side navigation links -->
+            <li>
+                <ul class="collapsible collapsible-accordion">
+                    <li><a href="guide.html" class="collapsible-header waves-effect arrow-r"><i class="fa fa-chevron-right"></i>
+                        Guide
+                        <i class="fa fa-angle-down rotate-icon"></i></a>
+                    </li>
+                    <li><a href="rendre.html" class="collapsible-header waves-effect arrow-r"><i class="fa fa-hand-pointer-o"></i>
+                        Rendre
+                        <i class="fa fa-angle-down rotate-icon"></i></a>
+                    </li>
+                    <li><a href="aide.html" class="collapsible-header waves-effect arrow-r"><i class="fa fa-eye"></i>
+                        Aide
+                        <i class="fa fa-angle-down rotate-icon"></i></a>
+                    </li>
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-envelope-o"></i> Questions/Réponses<i
+                            class="fa fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li>
+                                    <a href="" class="waves-effect">FAQ</a>
+                                    <a href="#questions" class="waves-effect">Questions les plus fréquentes</a>
+                                    <a href="#inscription" class="waves-effect">Inscription</a>
+                                    <a href="#horaires" class="waves-effect">Horaires, Accès et Services</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <!--/. Side navigation links -->
+        </ul>
+        <div class="sidenav-bg mask-strong"></div>
+    </div>
+    <!--/. Sidebar navigation -->
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav white">
+        <!-- SideNav slide-out button -->
+        <div class="float-left">
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars purple-gradient"></i></a>
+        </div>
+        <!-- Breadcrumb-->
+        <div class="breadcrumb-dn mr-auto d-flex justify-content-between align-items-center w-100">
+            <p>Questions/Réponses</p>
+            <a href="../index.php">
+                <i class="fa fa-home pr-3" style="font-size: 1.8rem; cursor: pointer"></i>
+            </a>
+        </div>
+    </nav>
+    <!-- /.Navbar -->
+</header>
+<!--/.Double navigation-->
+
+<!-- Project here-->
+    <div style="height: 100vh" class="container">
+        <div class="p-3">
+            <h1 class="d-flex justify-content-center">
+                Questions/Réponses
+            </h1>
+        </div>
+        <div class="py-5">
+          <a href="aide.html">
+            <button type="button"
+                    class="btn btn-success btn-rounded position-fixed z-max d-flex flex-row justify-content-center aqua-gradient"
+            >
+                <i class="fa fa-phone pr-3" style="font-size: 1.2rem"></i>
+                <p class="custom-p-button">
+                    Demander de l'aide
+                </p>
+            </button>
+          </a>
+            <div>
+                <div id="questions" class="py-4 h2-responsive">
+                    Les questions les plus fréquentes
+                </div>
+                <div>
+                    <!--Accordion wrapper-->
+                    <div class="accordion" id="accordion_questions" role="tablist" aria-multiselectable="true">
+
+                        <!-- Accordion card -->
+                        <div class="card">
+
+                            <!-- Card header -->
+                            <div class="card-header deep-blue-gradient" role="tab" id="headingOne">
+                                <a data-toggle="collapse"
+                                   href="#collapseOne"
+                                   aria-expanded="false"
+                                   aria-controls="collapseOne"
+                                   class="font-color-white"
+                                >
+                                    <h5 class="mb-0  d-flex flex-row justify-content-between">
+                                        <p class="custom-p-button">
+                                            Comment connaitre les nouveautés dans les bibliothèques?
+                                        </p>
+                                        <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion_questions">
+                                <div class="card-body">
+                                    Vous pouvez consulter la liste des nouveautés via le catalogue des bibliothèques ou en vous rendant sur la page
+                                    "Nouveautés". Sur le catalogue, vous pouvez découvrir toutes les nouveautés des 3 derniers mois sur l'ensemble
+                                    des bibliothèques. Utilisez les filtres de recherche sur la gauche pour faire une recherche plus précise, par
+                                    exemple par bibliothèque, par type de document ou même par thème.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion card -->
+
+                        <!-- Accordion card -->
+                        <div class="card">
+
+                            <!-- Card header -->
+                            <div class="card-header" role="tab" id="headingTwo">
+                                <a class="collapsed font-color-grey"
+                                   data-toggle="collapse"
+                                   href="#collapseTwo"
+                                   aria-expanded="false"
+                                   aria-controls="collapseTwo"
+                                >
+                                    <h5 class="mb-0 d-flex flex-row justify-content-between">
+                                        Peut on rendre un livre dans une autre bibliothèque que celle où on l'a emprunté ?
+                                        <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion_questions">
+                                <div class="card-body">
+                                    L’article 17 du règlement des bibliothèques de la Ville de Paris stipule que, sauf autorisation exceptionnelle
+                                    et particulière, les documents doivent être rendus dans la bibliothèque d'emprunt.
+
+                                    En effet, le réseau des bibliothèques de la Ville de Paris comprend une soixantaine de bibliothèques,
+                                    et ce sont près de 14 millions de prêts et renouvellements de prêt qui sont effectués chaque année.
+                                    L’infrastructure nécessaire à la circulation des documents d’une bibliothèque à l’autre implique un
+                                    investissement financier important qui n’est pas actuellement à l’ordre du jour, malgré l’intérêt reconnu
+                                    d’un tel service.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion card -->
+
+                        <!-- Accordion card -->
+                        <div class="card">
+
+                            <!-- Card header -->
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a class="collapsed font-color-grey"
+                                   data-toggle="collapse"
+                                   href="#collapseThree"
+                                   aria-expanded="false"
+                                   aria-controls="collapseThree"
+                                >
+                                    <h5 class="mb-0 d-flex flex-row justify-content-between">
+                                        Comment paye-t-on ses pénalités de retard ? <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion_questions">
+                                <div class="card-body">
+                                    En cas de retard, des pénalités sont appliquées : 0,15 € par document et par jour de retard, 0,07 € pour les mineurs.
+
+                                    Les pénalités sont à régler dès que leur cumul atteint la somme de 15 euros. Vous devez ensuite faire un chèque à
+                                    l’ordre du Trésor Public, à remettre à un agent de n’importe quel établissement de notre réseau. Il se chargera
+                                    ensuite de transmettre votre chèque au Trésor Public et d’effacer les pénalités dues dans le système informatique.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion card -->
+                    </div>
+                    <!--/.Accordion wrapper-->
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div id="inscription" class="py-4 h2-responsive">
+                    Inscription
+                </div>
+                <div>
+                    <!--Accordion wrapper-->
+                    <div class="accordion" id="accordionSignin" role="tablist" aria-multiselectable="true">
+
+                        <!-- Accordion card -->
+                        <div class="card">
+
+                            <!-- Card header -->
+                            <div class="card-header deep-blue-gradient" role="tab" id="headingFour">
+                                <a data-toggle="collapse"
+                                   href="#collapseFour"
+                                   aria-expanded="false"
+                                   aria-controls="collapseFour"
+                                   class="font-color-white"
+                                >
+                                    <h5 class="mb-0  d-flex flex-row justify-content-between">
+                                        <p class="custom-p-button">
+                                            Est-il possible de se réinscrire en ligne ?
+                                        </p>
+                                        <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="collapseFour" class="collapse show" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordionSignin">
+                                <div class="card-body">
+                                    Le logiciel actuel ne permet pas que vous changiez vous-même les informations figurant sur votre compte,
+                                    ni de vous réinscrire. Il faut vous rendre dans un établissement afin de remplir la fiche d’inscription
+                                    auprès d’un bibliothécaire afin qu’il la valide. Ces évolutions sont cependant à l’étude.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion card -->
+
+                        <!-- Accordion card -->
+                        <div class="card">
+
+                            <!-- Card header -->
+                            <div class="card-header" role="tab" id="headingFive">
+                                <a class="collapsed font-color-grey"
+                                   data-toggle="collapse"
+                                   href="#collapseFive"
+                                   aria-expanded="false"
+                                   aria-controls="collapseFive"
+                                >
+                                    <h5 class="mb-0 d-flex flex-row justify-content-between">
+                                        Comment renouveler mon abonnement en bibliothèque ?
+                                        <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordionSignin">
+                                <div class="card-body">
+                                    Pour vous réinscrire dans une bibliothèque de Paris, il faut vous rendre dans l’établissement que vous souhaitez
+                                    avec une pièce d’identité et l’ancienne carte si vous la possédez toujours. Vous y remplirez sur place un formulaire
+                                    d’inscription, auprès d'un bibliothécaire.
+
+                                    L'accès aux bibliothèques de la Ville de Paris est gratuit pour tout emprunt de livre ou de revue.
+                                    Par contre, l’emprunt des CD de musique est soumis à un forfait de 30,50€ pour un an, et le forfait CD et DVD
+                                    de 61€. L’inscription est valable un an, de date à date.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion card -->
+
+                        <!-- Accordion card -->
+                        <div class="card">
+
+                            <!-- Card header -->
+                            <div class="card-header" role="tab" id="headingSix">
+                                <a class="collapsed font-color-grey"
+                                   data-toggle="collapse"
+                                   href="#collapseSix"
+                                   aria-expanded="false"
+                                   aria-controls="collapseSix"
+                                >
+                                    <h5 class="mb-0 d-flex flex-row justify-content-between">
+                                        Que faire si j'ai perdu ma carte d'abonné ? <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordionSignin">
+                                <div class="card-body">
+                                    Il convient de le signaler rapidement dans la bibliothèque de votre choix. Une nouvelle carte vous sera restituée
+                                    15 jours après votre déclaration. Avec présentation de l’attestation de perte ou vol du commissariat, votre
+                                    nouvelle carte peut vous être proposée le jour-même.
+                                    ensuite de transmettre votre chèque au Trésor Public et d’effacer les pénalités dues dans le système informatique.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion card -->
+                    </div>
+                    <!--/.Accordion wrapper-->
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div id="horaires" class="py-4 h2-responsive">
+                    Horaires, Accès et Services
+                </div>
+                <div>
+                    <!--Accordion wrapper-->
+                    <div class="accordion" id="accordionInfos" role="tablist" aria-multiselectable="true">
+
+                        <!-- Accordion card -->
+                        <div class="card">
+
+                            <!-- Card header -->
+                            <div class="card-header deep-blue-gradient" role="tab" id="headingSeven">
+                                <a data-toggle="collapse"
+                                   href="#collapseSeven"
+                                   aria-expanded="false"
+                                   aria-controls="collapseSeven"
+                                   class="font-color-white"
+                                >
+                                    <h5 class="mb-0  d-flex flex-row justify-content-between">
+                                        <p class="custom-p-button">
+                                            Je suis professeur, puis-je venir en bibliothèque avec ma classe ?
+                                        </p>
+                                        <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="collapseSeven" class="collapse show" role="tabpanel" aria-labelledby="headingSeven" data-parent="#accordionInfos">
+                                <div class="card-body">
+                                    Les bibliothèques proposent des accueils de classe. Vous pouvez contacter directement
+                                    l'établissement le plus proche de votre école via son mail générique ou son téléphone.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion card -->
+
+                        <!-- Accordion card -->
+                        <div class="card">
+
+                            <!-- Card header -->
+                            <div class="card-header" role="tab" id="headingEight">
+                                <a class="collapsed font-color-grey"
+                                   data-toggle="collapse"
+                                   href="#collapseEight"
+                                   aria-expanded="false"
+                                   aria-controls="collapseEight"
+                                >
+                                    <h5 class="mb-0 d-flex flex-row justify-content-between">
+                                        Les bibliothèques sont-elles ouvertes les jours fériés ?
+                                        <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight" data-parent="#accordionInfos">
+                                <div class="card-body">
+                                    Les bibliothèques de la ville sont fermées les jours fériés.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion card -->
+
+                        <!-- Accordion card -->
+                        <div class="card">
+
+                            <!-- Card header -->
+                            <div class="card-header" role="tab" id="headingNine">
+                                <a class="collapsed font-color-grey"
+                                   data-toggle="collapse"
+                                   href="#collapseNine"
+                                   aria-expanded="false"
+                                   aria-controls="collapseNine"
+                                >
+                                    <h5 class="mb-0 d-flex flex-row justify-content-between">
+                                        Y-a-t-il des bibliothèques qui ouvrent le soir ? <i class="fa fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine" data-parent="#accordionInfos">
+                                <div class="card-body">
+                                    Les bibliothèques proposent des accueils de classe. Vous pouvez contacter directement
+                                    l'établissement le plus proche de votre école via son mail générique ou son téléphone.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion card -->
+                    </div>
+                    <!--/.Accordion wrapper-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Start your project here-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="../js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="../js/mdb.min.js"></script>
+    <!-- Custom script JavaScript -->
+    <script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+
+</html>
